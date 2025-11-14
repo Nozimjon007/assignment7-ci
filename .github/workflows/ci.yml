@@ -1,4 +1,6 @@
-name: CI Pipeline
+- name: Run ESLint
+        run: npm run lint
+        working-directory: ./transcript-manager
 
 on:
   push:
