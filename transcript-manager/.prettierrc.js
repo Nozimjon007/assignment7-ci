@@ -1,3 +1,4 @@
+// Testing CI workflow
 module.exports = {
   printWidth: 100,
   tabWidth: 2,
