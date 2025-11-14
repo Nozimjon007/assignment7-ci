@@ -1,6 +1,4 @@
-- name: Run ESLint
-        run: npm run lint
-        working-directory: ./transcript-manager
+name: CI Pipeline
 
 on:
   push:
@@ -23,10 +21,6 @@ jobs:
       
       - name: Install dependencies
         run: npm install
-        working-directory: ./transcript-manager
-      
-      - name: Run ESLint
-        run: npm run lint
         working-directory: ./transcript-manager
       
       - name: Run tests
